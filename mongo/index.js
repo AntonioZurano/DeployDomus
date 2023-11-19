@@ -11,9 +11,9 @@ const databasePort = process.env.DATABASE_PORT || '27017';
 const databaseName = process.env.DATABASE_NAME || '27017';
 const databaseUser = process.env.DATABASE_USER;
 const databasePassword = process.env.DATABASE_PASSWORD;
-const databaseURL = "mongodb+srv://" + process.env.DB_USER + ":" + process.env.DB_PASSWORD + "@" + process.env.DB_SERVER + "/" + process.env.DB_NAME + "?retryWrites=true&w=majority";
+//const databaseURL = "mongodb+srv://" + process.env.DB_USER + ":" + process.env.DB_PASSWORD + "@" + process.env.DB_SERVER + "/" + process.env.DB_NAME + "?retryWrites=true&w=majority";
 //console.log(databaseURL); 
-databaseURL = "mongodb+srv://antonio:" + "Db6EsVNdYo3tXc78" + "@" + "cluster0.f40swsu.mongodb.net";
+const databaseURL = "mongodb+srv://antonio:" + "Db6EsVNdYo3tXc78" + "@" + "cluster0.f40swsu.mongodb.net";
 console.log(databaseURL);
 //if we have a full mogourl defined in the .env then use it to start an online conection
 //if (mongoUrl){
